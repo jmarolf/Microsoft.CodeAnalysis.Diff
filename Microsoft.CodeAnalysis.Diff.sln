@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29731.156
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A0E54917-D336-4BD1-A814-27E68B29B772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.CodeAnalysis.Diff", "src\Microsoft.CodeAnalysis.Diff\Microsoft.CodeAnalysis.Diff.csproj", "{32E78C1C-86C9-46D3-B049-9842A5172738}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.CodeAnalysis.Diff", "src\Microsoft.CodeAnalysis.Diff\Microsoft.CodeAnalysis.Diff.csproj", "{32E78C1C-86C9-46D3-B049-9842A5172738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.CodeAnalysis.Diff.UnitTests", "src\Microsoft.CodeAnalysis.Diff.UnitTests\Microsoft.CodeAnalysis.Diff.UnitTests.csproj", "{8E054ABE-EE11-4E0F-9E98-E13E9305F363}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.CodeAnalysis.Diff.UnitTests", "src\Microsoft.CodeAnalysis.Diff.UnitTests\Microsoft.CodeAnalysis.Diff.UnitTests.csproj", "{8E054ABE-EE11-4E0F-9E98-E13E9305F363}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FDF83B8D-093C-4F16-83BE-EA62AA63DBE4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{32E78C1C-86C9-46D3-B049-9842A5172738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -47,8 +49,14 @@ Global
 		{8E054ABE-EE11-4E0F-9E98-E13E9305F363}.Release|x86.ActiveCfg = Release|Any CPU
 		{8E054ABE-EE11-4E0F-9E98-E13E9305F363}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{32E78C1C-86C9-46D3-B049-9842A5172738} = {A0E54917-D336-4BD1-A814-27E68B29B772}
 		{8E054ABE-EE11-4E0F-9E98-E13E9305F363} = {A0E54917-D336-4BD1-A814-27E68B29B772}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {462D2FF3-1E5C-44DB-8CB6-087B7F15BDFB}
 	EndGlobalSection
 EndGlobal
