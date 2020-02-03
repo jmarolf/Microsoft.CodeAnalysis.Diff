@@ -9,4 +9,8 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.CodeAnalysis.Diff\Microsoft.CodeAnalysis.Diff.csproj" />
+  </ItemGroup>
+
 </Project>
